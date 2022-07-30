@@ -22,11 +22,13 @@ export const musicPending = (data) => ({
   data,
 })
 
-export const getAllMusicAction = (dispatch, callback) => {
+export const getAllMusicAction = (params, dispatch, callback) => {
+  const { term = '' } = params
+
   return async () => {
     dispatch(musicPending())
     try {
-      const result = await fetch(`${apiConfig.apiUrl}/search?term=jack+johnson`)
+      const result = await fetch(`${apiConfig.apiUrl}/search?term=${term}`)
       const response = await result.json()
 
       if (result.ok) {

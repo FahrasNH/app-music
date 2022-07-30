@@ -7,8 +7,8 @@ const useMusic = () => {
   const managementMusicState = useSelector((state) => state.music)
 
   const handleGetAllMusic = useCallback(
-    (callback) => {
-      dispatch(getAllMusicAction(dispatch, callback))
+    (params, callback) => {
+      dispatch(getAllMusicAction(params, dispatch, callback))
     },
     [dispatch],
   )

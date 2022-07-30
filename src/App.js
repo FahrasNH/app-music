@@ -9,7 +9,7 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" exact element={<Homepage />} />
-        <Route path="/list-music" element={<ListMusic />} />
+        <Route path="/list-music/:term" element={<ListMusic />} />
       </Routes>
     </Layout>
   )
