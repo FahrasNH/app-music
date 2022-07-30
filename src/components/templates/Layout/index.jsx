@@ -17,10 +17,15 @@ const Layout = ({ children }) => {
 
   return (
     <main className="overflow-x-hidden w-[35%] m-auto allMobile:w-full sm:w-full md:w-full h-screen shadow-lg">
-      {location.pathname === '/list-music' && (
+      {location.pathname.includes('/list-music') && (
         <Header onClickSearch={handleShowSearch} />
       )}
-      {showBackdropSearch && <Backdrop onClick={handleCloseSearch} />}
+      {showBackdropSearch && (
+        <Backdrop
+          onClick={handleCloseSearch}
+          setShowBackdropSearch={setShowBackdropSearch}
+        />
+      )}
       {children}
     </main>
   )
