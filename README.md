@@ -25,7 +25,7 @@
 
 <div id="about-the-project"></div>
 Projek ini di bangun dengan tujuan untuk memenuhi persyaratan test dari Logique.
-[Logique](https://wknd-fe.vercel.app/)
+[App Music](https://app-music-five.vercel.app/list-music)
 
 Logique adalah App Music yang dibangun menggunakan teknologi ReactJS.
 
