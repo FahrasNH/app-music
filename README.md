@@ -86,6 +86,7 @@ Berikut ini adalah cara setup di local environment dan cara deploy
    ```sh
    yarn start or npm install
    ```
+4. Install `Allow CORS Extention` google chrome jika terkena cors.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
