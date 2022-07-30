@@ -96,7 +96,7 @@ Berikut ini adalah cara setup di local environment dan cara deploy
 <div id="contact"></div>
 Fahras Nur Hidayat - [Linkedin: Fahras Nur Hidayat](https://www.linkedin.com/in/fahras-nur-hidayat-176585179/) - fahras.fnh@gmail.com
 
-Project Link: [https://github.com/FahrasNH/wknd-fe](https://github.com/FahrasNH/wknd-fe)
+Project Link: [https://github.com/FahrasNH/app-music](https://github.com/FahrasNH/app-music)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
